@@ -15,25 +15,25 @@
  */
 @font-face {
   font-family: 'Bebas';
-  src: url('BEBAS.TTF');
+  src: asset-data-url('BEBAS.TTF');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'EncodeSans600';
-  src: url('EncodeSans600.ttf');
+  src: asset-data-url('EncodeSans600.ttf');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'EncodeSans400';
-  src: url('EncodeSans400.ttf');
+  src: asset-data-url('EncodeSans400.ttf');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'EncodeSans800';
-  src: url('EncodeSans800.ttf');
+  src: asset-data-url('EncodeSans800.ttf');
   font-weight: normal;
   font-style: normal;
 }
@@ -102,7 +102,7 @@ body{
   background: #82D1F2;
 }
 .icon{
-  background: url('icons.png');
+  background: asset-data-url('icons.png');
 }
 .call-icon{
   width: 20px;
