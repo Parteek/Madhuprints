@@ -216,3 +216,26 @@ h5{
     width:17px;
   }
 }
+.f-icon{
+  background: asset-data-url('features.png');
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  &.sq{
+    background-position: 0px 0px;
+  }
+  &.qep{
+    background-position: 0px -150px;
+  }
+  &.bo{
+    background-position: 0px -300px;
+  }
+  &.otd{
+    background-position: 0px -450px;
+  }
+}
+.feature-name{
+  font-family: 'EncodeSans600';
+  font-size: 15px;
+  color: white;
+}
