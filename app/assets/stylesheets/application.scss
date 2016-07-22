@@ -87,10 +87,11 @@ body{
 }
 
 .main-footer{
-  background: #E5E5E5;
+  background: #e5e5e5;
   padding: 15px;
-  color: #444;
-  border-top: 1px solid #f1f1f1;
+  color: #494d54;
+  border-top: 1px solid #aeb2b5;
+  font-family: 'EncodeSans400';
 }
 
 .dark{
@@ -135,11 +136,21 @@ h4{
   font-size: 14px;
   color: #494d54;
 }
+.quote-text{
+  font-family: 'EncodeSans400';
+  font-size: 16px;
+  color: #494d54;
+  margin-left: 50px;
+  padding-top: 35px;
+}
 h5{
   font-family: 'EncodeSans600';
   font-size: 20px;
   &.italic{
     font-style: italic;
+  }
+  &.primary-color{
+    color: #494d54;
   }
 }
 .h-icon{
@@ -156,5 +167,52 @@ h5{
   &.right{
     background-position: 0px -10px;
     margin-left: 15px;
+  }
+}
+.quote-icon{
+  background: asset-data-url('quote.png');
+  width: 76px;
+  height: 60px;
+  display: inline-block;
+  position: absolute;
+  z-index: -1;
+}
+.feedback{
+  blockquote{
+    padding: 0;
+    margin: 0 0 20px;
+    border: none;
+    font-size: 16px;
+  }
+}
+.client-name{
+  color: #777a7f;
+  font-family: 'EncodeSans400';
+  font-size: 15px;
+}
+.s-icons{
+  background: asset-data-url('icons.png');
+  width: 13px;
+  height: 17px;
+  display: inline-block;
+  background-size: 25px 150px;
+  &.location{
+    background-position: -3px 0px;
+    margin-right: 3px;
+    position: relative;
+    top: 3px;
+  }
+  &.call{
+    background-position: -1px -17px;
+    margin-right: 3px;
+    position: relative;
+    top: 3px;
+  }
+  &.email{
+    background-position: 0px -33px;
+    margin-right: 3px;
+    position: relative;
+    top: 3px;
+    width:17px;
   }
 }
